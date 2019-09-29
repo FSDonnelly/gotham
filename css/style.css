@@ -103,6 +103,10 @@ article h3 {
   padding-left: 25px;
   justify-content: space-between;
 }
+.article-right .meta,
+.article-right .additional {
+  margin: 18px 0;
+}
 .meta {
   font-family: Roboto;
   font-weight: 300;
@@ -127,7 +131,9 @@ article h3 {
 .description {
   color: #555;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: Proxima;
+  font-weight: 300;
+  line-height: 1.6;
 }
 .description::after {
   content: '>';
@@ -137,12 +143,13 @@ article h3 {
   color: #999;
   font-family: Roboto;
   font-weight: 300;
+  font-size: 13px;
 }
 .views::before,
 .comments::before {
   content: '\f06e';
   font-family: 'Font Awesome 5 Free';
-  font-size: 16px;
+  font-size: 13px;
   margin-right: 10px;
 }
 .comments::before {
@@ -240,11 +247,15 @@ aside.right-sidebar {
 }
 .popular-news article {
   flex-direction: column;
+  margin-bottom: 20px;
 }
 .popular-news h2 {
   font-family: Proxima;
   font-size: 18px;
   font-weight: bold;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
 }
 .popular-news h2::after {
   content: '.';
@@ -253,10 +264,12 @@ aside.right-sidebar {
   width: 100%;
   height: 1px;
   border-top: 1px solid #e5e5e5;
+  margin-left: 20px;
 }
 .popular-news h3 {
   font-size: 16px;
   font-family: Roboto;
+  /* font-weight: bold; */
   line-height: 1.2;
   margin-top: 10px;
 }
