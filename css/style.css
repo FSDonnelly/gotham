@@ -186,7 +186,7 @@ aside.right-sidebar {
   border: 1px solid #e5e5e5;
   font-family: Roboto;
   font-size: 14px;
-  box-shadow: border-box;
+  box-sizing: border-box;
 }
 .calendar-widget {
   border: 1px solid #e5e5e5;
