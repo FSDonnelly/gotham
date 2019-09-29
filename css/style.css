@@ -18,7 +18,16 @@ body {
   font-size: 16px;
   font-family: Roboto;
 }
-
+/* ======= MAIN ========= */
+.main {
+  display: flex;
+}
+main {
+  width: 77%;
+}
+.right-sidebar {
+  width: 23%;
+}
 /* ======= HEADER ========= */
 .page-header,
 .page-footer {
@@ -51,9 +60,6 @@ nav ul {
 }
 
 /* ======= FOOTER ========= */
-.page-footer {
-  margin: 100px 0;
-}
 .copy {
   font-family: Proxima;
   font-weight: 300;
@@ -62,6 +68,7 @@ nav ul {
 }
 .socials {
   display: flex;
+  justify-content: flex-end;
 }
 .socials a {
   display: block;
@@ -75,5 +82,5 @@ nav ul {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  margin: 0 10px;
+  margin-left: 10px;
 }
