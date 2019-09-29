@@ -238,6 +238,28 @@ aside.right-sidebar {
   background-color: #f7c61d;
   color: #fff;
 }
+.popular-news article {
+  flex-direction: column;
+}
+.popular-news h2 {
+  font-family: Proxima;
+  font-size: 18px;
+  font-weight: bold;
+}
+.popular-news h2::after {
+  content: '.';
+  font-size: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #e5e5e5;
+}
+.popular-news h3 {
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 1.2;
+  margin-top: 10px;
+}
 /* ======= FOOTER ========= */
 .page-footer {
   margin-top: 100px;
